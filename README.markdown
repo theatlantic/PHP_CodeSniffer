@@ -5,6 +5,13 @@ PHP\_CodeSniffer is a PHP5 script that tokenises PHP, JavaScript and CSS files t
 
 [![Build Status](https://secure.travis-ci.org/squizlabs/PHP_CodeSniffer.png?branch=master)](https://travis-ci.org/squizlabs/PHP_CodeSniffer)
 
+Configuration
+-------------
+
+In order to use The Atlantic's code standards by default, issue the following command once PHP\_CodeSniffer has been installed:
+
+    phpcs --config-set default_standard TheAtlantic
+
 Requirements
 ------------
 
